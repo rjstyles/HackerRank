@@ -3,7 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
 
     int h, m;
     scanf("%d",&h);
