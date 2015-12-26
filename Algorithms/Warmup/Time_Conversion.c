@@ -3,8 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
-
+int main() 
+{
     int hour,min,sec;
     char time[2];
     scanf("%2d:%2d:%2d%s",&hour,&min,&sec,time);
