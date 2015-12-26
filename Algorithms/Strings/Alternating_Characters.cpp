@@ -2,8 +2,9 @@
 #include<cstring>
 
 using namespace std;
-int main() {
-     int t;
+int main() 
+{
+    int t;
     cin>>t;
     while(t--)
     {
@@ -19,4 +20,5 @@ int main() {
         }
         cout<<c<<endl;
     }
-    retur
+    return 0;
+}
