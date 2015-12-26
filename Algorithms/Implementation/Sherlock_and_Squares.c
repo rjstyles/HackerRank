@@ -3,7 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
 
     int t;
     long long int a,b,i,r,c;
