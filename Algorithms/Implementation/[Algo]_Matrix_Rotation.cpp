@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-int main() {
+
+int main() 
+{
     long long m,n,r;
     cin>>m>>n>>r;
     long long grid[m][n];
