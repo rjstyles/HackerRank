@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     char s[81];
     cin >> s;
     int l=strlen(s);
