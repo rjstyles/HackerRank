@@ -1,3 +1,2 @@
-# Hackerrank
-Solution to hackerrank problems
-          by-Rajeev Singh
+# HackerRank
+Solution to HackerRank problems on https://www.hackerrank.com
