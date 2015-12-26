@@ -1,3 +1,3 @@
 # Hackerrank
 Solution to hackerrank problems
-        by-Rajeev Singh
+          by-Rajeev Singh
