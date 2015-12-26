@@ -5,8 +5,8 @@
 #include<cstring>
 using namespace std;
 
-int main() {
-        
+int main() 
+{
     char str[1000];
     scanf("%[^\n]s",str);
     int alpha[26];
