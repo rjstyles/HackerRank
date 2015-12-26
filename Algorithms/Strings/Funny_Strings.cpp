@@ -2,7 +2,8 @@
 #include<cstring>
 using namespace std;
 
-int main() {
+int main() 
+{
     int t;
     cin>>t;
     while(t--)
