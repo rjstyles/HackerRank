@@ -22,45 +22,45 @@ int main(int argc, char const *argv[])
 		{											
 			for (j=0;j<l;j++)
 			{
-        string tmp1=s.substr(j,i);
-        if(tmp1.length()==i)
-        {
-          for (m = 0; m < 26; m++)
-          {
-            alpha1[m]=0;
-          }
-          for(m=0;m<i;m++)
-              alpha1[tmp1[m]-97]++;
-          
-          for (int k=j+1;k<l;k++)
-          {
-            string tmp2=s.substr(k,i);
-            if(tmp2.length()==i)
-            {
-              int x,flag=0;
-              for (m = 0; m < 26; m++)
-              {
-                  alpha2[m]=0;
-              }
-              for(m=0;m<i;m++)
-                  alpha2[tmp2[m]-97]++;
-              
-              for (m = 0; m < 26; m++)
-              {
-                if(alpha1[m]!=alpha2[m])
-                {
-                    flag++;
-                    break;
-                }
-              }
-              if(!flag)
-              c++;
-            }
-          }
-        }        
+	        		string tmp1=s.substr(j,i);
+	        		if(tmp1.length()==i)
+	        		{
+			          for (m = 0; m < 26; m++)
+			          {
+			            alpha1[m]=0;
+			          }
+			          for(m=0;m<i;m++)
+			              alpha1[tmp1[m]-97]++;
+			          
+			          for (int k=j+1;k<l;k++)
+			          {
+			            string tmp2=s.substr(k,i);
+			            if(tmp2.length()==i)
+			            {
+			              int x,flag=0;
+			              for (m = 0; m < 26; m++)
+			              {
+			                  alpha2[m]=0;
+			              }
+			              for(m=0;m<i;m++)
+			                  alpha2[tmp2[m]-97]++;
+			              
+			              for (m = 0; m < 26; m++)
+			              {
+			                if(alpha1[m]!=alpha2[m])
+			                {
+			                    flag++;
+			                    break;
+			                }
+			              }
+			              if(!flag)
+			              c++;
+			            }
+			          }
+	        		}        
 			}	
 		}
-    cout<<c<<endl;
+    		cout<<c<<endl;
 	}
 	return 0;
 }
